@@ -1,0 +1,21 @@
+pycryptodome>=3.9.2<4.0.0
+base58>=1.0.3<2.0.0
+pymultihash>=0.8.2
+multiaddr>=0.0.9<0.1.0
+rpcudp>=3.0.0<4.0.0
+lru-dict>=1.1.6
+protobuf>=3.10.0<4.0.0
+coincurve>=10.0.0<11.0.0
+pynacl==1.3.0
+dataclasses>=0.7 <1;python_version<'3.7'
+async_generator==1.10
+trio>=0.15.0
+async-service>=0.1.0a6
+async-exit-stack==1.0.1
+noiseprotocol>=0.3.0<0.4.0
+py-cid>=0.3.0
+multiformats>=0.2.1
+eth-account>=0.9.0
+requests>=2.31.0
+python-dotenv>=0.21.1
+web3>=6.8.0
