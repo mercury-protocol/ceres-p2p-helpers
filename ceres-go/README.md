@@ -49,6 +49,13 @@ A data collector message consists of a data CID and a signature over that CID wi
 <br>
     
 ```
+func GetDaoAdminPeerInfo(daoAdminAddr string, db string) (PeerInfo, error)
+```    
+Retrieves the `PeerInfo` for a given DAO admin address.    
+    
+<br>
+    
+```
 func VerifyPeerInfo(p PeerInfo, clientUrl string) (bool, error)
 ```    
 Verifies the authenticity of a `PeerInfo` object. The `PeerInfo` can then be used to communicate with that node.
