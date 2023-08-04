@@ -24,22 +24,30 @@ Creates and configures a new libp2p host. The host will open connections for our
 func TransferFile(n host.Host, filename string, target ma.Multiaddr) error
 ```   
 Transfers the data from the given file to the given target address.   
-   
+    
+<br>
+    
 ```
 func SendDataCollectorMsgToNode(n host.Host, target ma.Multiaddr, msg DataCollectorMsg) error
 ```    
 Sends a `DataCollectorMsg` to the given target address. If `error` is `nil`, the target accepted the message as authentic.   
-   
+    
+<br>
+    
 ```
 func Cid(data []byte) (string, error)
 ```    
 Generates the content identifier for the given data. Uses the Dag-Protobuf codec.   
-   
+    
+<br>
+    
 ```
 func CreateCollectorMsg(cid string, k string) (DataCollectorMsg, error)
 ```   
 A data collector message consists of a data CID and a signature over that CID with the Ethereum private key of the data collector. This function generates this message.   
-   
+    
+<br>
+    
 ```
 func VerifyPeerInfo(p PeerInfo, clientUrl string) (bool, error)
 ```    
