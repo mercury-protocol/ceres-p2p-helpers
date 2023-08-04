@@ -17,7 +17,8 @@ The typical flow for transferring some data is as follows:
 func Init(port int) (*host.Host, error)
 ```     
 Creates and configures a new libp2p host. The host will open connections for our transport protocols on the given port.   
-   
+    
+     
 ```
 func TransferFile(n host.Host, filename string, target ma.Multiaddr) error
 ```   
