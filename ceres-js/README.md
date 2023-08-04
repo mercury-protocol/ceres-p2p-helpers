@@ -1,8 +1,8 @@
 # ceres-js    
     
-This is a helper package to transfer data collected with a collector to a data DAO node. This package is written in JavaScript and can be intergrated into data collectors written in JavaScript.     
+This is a helper package to transfer data collected with a collector to a data DAO node. This package is written in JavaScript.     
     
-You can create data collectors in any language. An implementationof this data transport helper is planned in couple of other languages such as Rust, C++, and Swift.    
+You can create data collectors in any language. An implementation of this data transport helper is planned in a couple of other languages such as Rust, C++, and Swift.    
      
 You can run this code both as a backend and in the browser. Pass in the `isBrowser` argument accordingly.   
 
